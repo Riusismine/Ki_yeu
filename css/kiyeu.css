@@ -1,0 +1,105 @@
+#about {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+}
+#heading{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+#about {
+    height: 46px;
+    background-color: black;
+}
+#nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#nav > li {
+    display: inline-block;
+    position: relative;
+}
+#nav .subnav, .subnav1 {
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    display: none;
+    list-style: none;
+    padding: 0;
+}
+#nav li:hover > .subnav, .subnav li:hover > .subnav1 {
+    display: block; 
+}
+#nav li a {
+    color: white;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+    background-color: black;
+}
+#nav li:hover > a {
+    color: #000;
+    background-color: #ccc;
+}
+#nav .subnav li a {
+    color: black;
+    text-decoration: none;
+    line-height: 30px;
+    padding: 5px 15px;
+    display: block;
+    background-color: white;
+}
+#nav .subnav li:hover > a {
+    color: white;
+    background-color: #ccc;
+}
+#nav .subnav1 {
+    left: 100%; /*định vị các mục con sang bên phải*/
+    top: 0;
+}
+#nav .subnav1 li a {
+    color: black;
+    text-decoration: none;
+    line-height: 30px;
+    padding: 5px 15px;
+    display: block;
+    background-color: white;
+    width: 170px
+}
+#nav .subnav1 li:hover > a {
+    color: white;
+    background-color: #999; 
+}
+.about a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 20px;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #B22222;
+}
+
+.gioithieu{
+    margin-top:5% ;
+}
+.ten {
+    flex-direction: column;
+    margin-left: 10%;
+    align-items: center;
+}
+
+.link-custom {
+    padding: 0 13px;
+    text-decoration: none;
+    background-color: #1854b4;
+    border-radius: 40px;
+    border: 6px solid #1854b4;
+}
+
