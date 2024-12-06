@@ -192,7 +192,7 @@ body::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url("https://cdn.discordapp.com/attachments/1302293490734202931/1314227080162050088/back.jpeg?ex=675300d9&is=6751af59&hm=898f78564469e7ccba56daf4d1c7730091721877c4ff20031c0ebc98ad2de36a&");
+  background-image: url("/data/background/back.jpeg");
   background-repeat: no-repeat;
   z-index: -1;
   filter: blur(5px);
@@ -708,70 +708,6 @@ body::before {
   }
 }
 
-@media (width <=640px) {
-  .container::before {
-    background-image: url("../data/backdround-mobile.jpg");
-    margin: -2px;
-    filter: blur(2px);
-    background-color: rgba(0, 0, 0, 0.5);
-    background-blend-mode: darken;
-  }
-
-  .profile {
-    width: 300px;
-  }
-
-  .profile .banner {
-    height: 100px;
-  }
-
-  .badges {
-    top: 120px;
-    right: 16px;
-    left: unset;
-    flex-direction: row-reverse;
-  }
-
-  .avatar {
-    top: 55px;
-  }
-
-  .avatar #avatar-image {
-    width: 86px;
-    height: 86px;
-  }
-
-  #avatar-decoration {
-    width: 103px;
-    height: 103px;
-  }
-
-  .name-box {
-    width: 236px;
-    margin: 16px 16px 10px 16px;
-  }
-
-  .body {
-    padding: 0 16px 16px 16px;
-  }
-
-  .card {
-    margin: 70px 16px 16px;
-  }
-
-  .socials {
-    display: block;
-  }
-
-  .platform {
-    width: 196px;
-  }
-
-  .chat-container {
-    width: 200px;
-  }
-}
-
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -779,68 +715,5 @@ body::before {
 
   100% {
     opacity: 1;
-  }
-}
-@media (width <=640px) {
-  .container::before {
-    background-image: url("../data/backdround-mobile.jpg");
-    margin: -2px;
-    filter: blur(2px);
-    background-color: rgba(0, 0, 0, 0.5);
-    background-blend-mode: darken;
-  }
-
-  .profile {
-    width: 300px;
-  }
-
-  .profile .banner {
-    height: 100px;
-  }
-
-  .badges {
-    top: 120px;
-    right: 16px;
-    left: unset;
-    flex-direction: row-reverse;
-  }
-
-  .avatar {
-    top: 55px;
-  }
-
-  .avatar #avatar-image {
-    width: 86px;
-    height: 86px;
-  }
-
-  #avatar-decoration {
-    width: 103px;
-    height: 103px;
-  }
-
-  .name-box {
-    width: 236px;
-    margin: 16px 16px 10px 16px;
-  }
-
-  .body {
-    padding: 0 16px 16px 16px;
-  }
-
-  .card {
-    margin: 70px 16px 16px;
-  }
-
-  .socials {
-    display: block;
-  }
-
-  .platform {
-    width: 196px;
-  }
-
-  .chat-container {
-    width: 200px;
   }
 }
