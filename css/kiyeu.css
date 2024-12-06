@@ -102,4 +102,7 @@ body {
     border-radius: 40px;
     border: 6px solid #1854b4;
 }
+*{
+    box-sizing: border-box;
 
+}
