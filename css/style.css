@@ -708,6 +708,70 @@ body::before {
   }
 }
 
+@media (width <=640px) {
+  .container::before {
+    background-image: url("../data/backdround-mobile.jpg");
+    margin: -2px;
+    filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+  }
+
+  .profile {
+    width: 300px;
+  }
+
+  .profile .banner {
+    height: 100px;
+  }
+
+  .badges {
+    top: 120px;
+    right: 16px;
+    left: unset;
+    flex-direction: row-reverse;
+  }
+
+  .avatar {
+    top: 55px;
+  }
+
+  .avatar #avatar-image {
+    width: 86px;
+    height: 86px;
+  }
+
+  #avatar-decoration {
+    width: 103px;
+    height: 103px;
+  }
+
+  .name-box {
+    width: 236px;
+    margin: 16px 16px 10px 16px;
+  }
+
+  .body {
+    padding: 0 16px 16px 16px;
+  }
+
+  .card {
+    margin: 70px 16px 16px;
+  }
+
+  .socials {
+    display: block;
+  }
+
+  .platform {
+    width: 196px;
+  }
+
+  .chat-container {
+    width: 200px;
+  }
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -715,5 +779,68 @@ body::before {
 
   100% {
     opacity: 1;
+  }
+}
+@media (width <=640px) {
+  .container::before {
+    background-image: url("../data/backdround-mobile.jpg");
+    margin: -2px;
+    filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+  }
+
+  .profile {
+    width: 300px;
+  }
+
+  .profile .banner {
+    height: 100px;
+  }
+
+  .badges {
+    top: 120px;
+    right: 16px;
+    left: unset;
+    flex-direction: row-reverse;
+  }
+
+  .avatar {
+    top: 55px;
+  }
+
+  .avatar #avatar-image {
+    width: 86px;
+    height: 86px;
+  }
+
+  #avatar-decoration {
+    width: 103px;
+    height: 103px;
+  }
+
+  .name-box {
+    width: 236px;
+    margin: 16px 16px 10px 16px;
+  }
+
+  .body {
+    padding: 0 16px 16px 16px;
+  }
+
+  .card {
+    margin: 70px 16px 16px;
+  }
+
+  .socials {
+    display: block;
+  }
+
+  .platform {
+    width: 196px;
+  }
+
+  .chat-container {
+    width: 200px;
   }
 }
